@@ -1,0 +1,15 @@
+{
+  "full_name": "Galaxy Project and Community",
+  "email": "galaxy-committers@lists.galaxyproject.org",
+  "github_username": "galaxyproject",
+  "project_name": "my-new-package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0",
+  "use_pytest": "y",
+  "use_black": "y",
+  "command_line_interface": ["Click", "Argparse", "No command-line interface"],
+  "create_author_file": "y",
+  "release_day": ""
+}
